@@ -1,0 +1,30 @@
+ version: 2.1
+
+ orbs:
+  win: circleci/windows@2.2.0
+
+ jobs:
+   build:
+     executor: win/default     
+    
+     steps:
+       - checkout
+       - run: dotnet build
+       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>
+	<title>Painting</title>
+
+</head>
+<body>
+<!--上面框架：主題-->
+<div style="width:1510px;height:400px;border:5px border-color:#0000FF; border-style:solid ; float:left;"></div>
+<!--左邊的框架出不來--> 
+<div style="width:990px;height:400px;border:3px border-color:#0000FF; border-style:solid ; float:left;"></div>
+<!--右邊的框架主題：自我介紹-->
+<div style="width:500height:400px;border:3px border-color:#0000FF; border-style:solid ; float:right;"></div> 
+
+
+</body>
+
+
+</html>
